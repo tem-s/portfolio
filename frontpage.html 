@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temi — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+<header>
+  <div class="nav-inner">
+    <a href="#top" class="nav-mark">Temi<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin:auto;display:block;">
+        <path d="M2 4H14M2 8H14M2 12H14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#ventures">Business ventures</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+ 
+<main id="top">
+ 
+  <!-- HERO SECTION -->
+  <section class="hero" style="padding-top:150px;">
+    <svg class="hero-grid" viewBox="0 0 1040 400" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="fade" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35"/>
+          <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <g stroke="url(#fade)" stroke-width="1">
+        <line x1="620" y1="0" x2="620" y2="400"/>
+        <line x1="760" y1="0" x2="760" y2="400"/>
+        <line x1="900" y1="0" x2="900" y2="400"/>
+        <line x1="0" y1="60" x2="1040" y2="60"/>
+        <line x1="0" y1="180" x2="1040" y2="180"/>
+        <line x1="0" y1="300" x2="1040" y2="300"/>
+      </g>
+      <g fill="#8b5cf6" opacity="0.5">
+        <circle cx="620" cy="60" r="3"/>
+        <circle cx="760" cy="180" r="3"/>
+        <circle cx="900" cy="300" r="3"/>
+        <circle cx="620" cy="300" r="3"/>
+      </g>
+    </svg>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Final-year in Computer Systems Engineering</p>
+      <h1>Hello, I'm Temi <br>Eniola-Jegede.</h1>
+      <p class="hero-tagline">Aspiring IT professional with a passion for solving problems and building towards something of my own.</p>
+      <div class="hero-actions">
+        <a href="#" class="btn btn-primary">Download CV</a>
+        <a href="www.linkedin.com/in/temilola-jegede" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+ 
