@@ -229,7 +229,7 @@
     .about-grid{ grid-template-columns:1fr; gap:20px; }
   }
  
-   /* ----------SIDE VENTURES ---------- */
+   /* ----------SIDE VENTURES DESIGN ---------- */
   .venture-list{
     display:flex;
     flex-direction:column;
@@ -280,3 +280,61 @@
   @media (max-width:680px){
     .venture{ grid-template-columns:1fr; gap:16px; }
   }
+
+  /* ---------- PROJECTS ---------- */
+  .project-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+    border-radius:12px;
+    overflow:hidden;
+  }
+  .project-card{
+    background:var(--bg);
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+  }
+  .project-card h3{
+    font-size:19px;
+    font-weight:600;
+    margin:0;
+  }
+  .project-card p{
+    color:var(--text-muted);
+    font-size:16px;
+    margin:0;
+    flex-grow:1;
+  }
+  .project-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+  .tag{
+    font-size:12px;
+    font-weight:500;
+    color:var(--purple-light);
+    border:1px solid var(--line);
+    padding:4px 10px;
+    border-radius:20px;
+  }
+  .project-card a.repo-link{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:14px;
+    font-weight:600;
+    text-decoration:none;
+    color:var(--text);
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  .project-card a.repo-link:hover{ color:var(--purple-light); }
+ 
+  @media (max-width:680px){
+    .project-grid{ grid-template-columns:1fr; }
+  }
+ 
