@@ -338,3 +338,70 @@
     .project-grid{ grid-template-columns:1fr; }
   }
  
+  /* ---------- SKILLS ---------- */
+  .skills-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+  }
+  .skill-cat h3{
+    font-size:15px;
+    font-weight:600;
+    color:var(--text-faint);
+    margin:0 0 20px 0;
+  }
+  .skill-cat ul{
+    list-style:none;
+    margin:0; padding:0;
+    display:flex;
+    flex-direction:column;
+    gap:0;
+  }
+  .skill-cat li{
+    padding:14px 0;
+    border-top:1px solid var(--line);
+    font-size:17px;
+    display:flex;
+    justify-content:space-between;
+    gap:16px;
+  }
+  .skill-cat li span:last-child{
+    color:var(--text-faint);
+    font-family:'Space Grotesk',sans-serif;
+    font-size:13px;
+  }
+ 
+  @media (max-width:680px){
+    .skills-grid{ grid-template-columns:1fr; gap:36px; }
+  }
+ 
+  /* ---------- CERTIFICATIONS ---------- */
+  .cert-row{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+  }
+  .cert-card{
+    flex:1 1 260px;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:26px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    transition:border-color 0.2s ease;
+  }
+  .cert-card:hover{ border-color:var(--purple); }
+  .cert-issuer{
+    font-size:13px;
+    color:var(--text-faint);
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:600;
+  }
+  .cert-name{
+    font-size:18px;
+    font-weight:600;
+    margin:0;
+    font-family:'Space Grotesk',sans-serif;
+  }
