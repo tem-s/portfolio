@@ -136,4 +136,106 @@
     </div>
   </section>
  
- 
+ <section id="projects">
+  <p class="mono-label">Projects</p>
+  <h2>Technical work</h2>
+
+  <div class="project-grid">
+
+```
+<div class="project-card">
+  <h3>EECS Support System</h3>
+  <p>Worked as part of a team to develop a full-stack support platform for QMUL's School of Electronic Engineering and Computer Science. The system manages extenuating circumstance claims and laboratory maintenance requests, using role-based access, automated workflows and status tracking.</p>
+  <div class="project-tags">
+    <span class="tag">Java</span>
+    <span class="tag">Spring Boot</span>
+    <span class="tag">React</span>
+    <span class="tag">MySQL</span>
+  </div>
+  <a class="repo-link" href="https://github.com/tem-s/EECS-Support-" target="_blank" rel="noopener">View on GitHub ↗</a>
+</div>
+
+<div class="project-card">
+  <h3>Horse Race Simulator</h3>
+  <p>A Java-based horse racing simulator developed as a solo project. I built the race simulation and a graphical interface where users can customise horses, tracks and weather conditions, while also interacting with a betting system.</p>
+  <div class="project-tags">
+    <span class="tag">Java</span>
+    <span class="tag">Java Swing</span>
+    <span class="tag">OOP</span>
+  </div>
+  <a class="repo-link" href="https://github.com/tem-s/HorseRaceSimulator" target="_blank" rel="noopener">View on GitHub ↗</a>
+</div>
+
+<div class="project-card">
+  <h3>Pedestrian & Cyclist GPS</h3>
+  <p>A navigation application I developed independently during my A-levels, designed to provide routes for cyclists and pedestrians using C#, XML & Dijkstra's's algorithm to work out the shortest routes. The project gave me my first experience turning a real-world problem into a working software solution.</p>
+  <div class="project-tags">
+    <span class="tag">C#</span>
+    <span class="tag">GPS</span>
+    <span class="tag">Navigation</span>
+  </div>
+  <a class="repo-link" href=" https://drive.google.com/drive/folders/10j7fBDddzNiCKwncu5wNySniotz78Q-X?usp=share_link " target="_blank" rel="noopener">View on GitHub ↗</a>
+</div>
+
+<div class="project-card">
+  <h3>Weather App</h3>
+  <p>A group project focused on building a weather application and working collaboratively to turn requirements into a functional product. The project gave me experience contributing to a shared codebase and working as part of a development team.</p>
+  <div class="project-tags">
+    <span class="tag">Group Project</span>
+    <span class="tag">API</span>
+    <span class="tag">Web Development</span>
+  </div>
+  <a class="repo-link" href="https://github.com/nish-ali25/SailCastv0" target="_blank" rel="noopener">View on GitHub ↗</a>
+</div>
+
+<div class="project-card">
+  <h3>Personal Portfolio</h3>
+  <p>A responsive portfolio website built to bring together my technical projects, experience and background in one place. I designed and developed the site using HTML and CSS, with the aim of creating a professional space to showcase my work.</p>
+  <div class="project-tags">
+    <span class="tag">HTML</span>
+    <span class="tag">CSS</span>
+    <span class="tag">GitHub</span>
+  </div>
+  <a class="repo-link" href="https://github.com/tem-s/portfolio" target="_blank" rel="noopener">View on GitHub ↗</a>
+</div>
+```
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+  <p class="mono-label">Skills</p>
+  <h2>What I work with</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-cat">
+      <h3>Technical</h3>
+      <ul>
+        <li><span>Cloud</span><span>AWS · Azure</span></li>
+        <li><span>Programming</span><span>C# · Java · Python</span></li>
+        <li><span>Web</span><span>HTML · CSS</span></li>
+        <li><span>Databases</span><span>SQL</span></li>
+        <li><span>Development tools</span><span>Git · GitHub</span></li>
+        <li><span>Operating systems</span><span>Linux / Unix</span></li>
+      </ul>
+    </div>
+
+    <div class="skill-cat">
+      <h3>Business &amp; professional</h3>
+      <ul>
+        <li><span>Problem-solving</span><span></span></li>
+        <li><span>Team collaboration</span><span></span></li>
+        <li><span>Leadership</span><span></span></li>
+        <li><span>Time management</span><span></span></li>
+        <li><span>Adaptability</span><span></span></li>
+        <li><span>Customer service</span><span></span></li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
