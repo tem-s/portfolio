@@ -229,3 +229,54 @@
     .about-grid{ grid-template-columns:1fr; gap:20px; }
   }
  
+   /* ----------SIDE VENTURES ---------- */
+  .venture-list{
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+  }
+  .venture{
+    display:grid;
+    grid-template-columns:280px 1fr;
+    gap:40px;
+    padding:44px 0;
+    border-top:1px solid var(--line);
+  }
+  .venture:first-child{ border-top:none; }
+  .venture-head{ display:flex; flex-direction:column; gap:10px; }
+  .venture-dot{
+    width:10px; height:10px;
+    border-radius:2px;
+    margin-bottom:6px;
+  }
+  .venture-name{
+    font-size:24px;
+    font-weight:600;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  .venture-role{
+    font-size:14px;
+    color:var(--text-faint);
+    margin:0;
+  }
+  .venture-body p{
+    margin:0 0 16px 0;
+    color:var(--text-muted);
+    font-size:17px;
+  }
+  .venture-body p:last-of-type{ margin-bottom:20px; }
+  .venture-link{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:14px;
+    font-weight:600;
+    color:var(--purple-light);
+    text-decoration:none;
+    border-bottom:1px solid transparent;
+    transition:border-color 0.2s ease;
+  }
+  .venture-link:hover{ border-color:var(--purple-light); }
+ 
+  @media (max-width:680px){
+    .venture{ grid-template-columns:1fr; gap:16px; }
+  }
