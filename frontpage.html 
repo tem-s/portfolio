@@ -65,3 +65,75 @@
     </div>
   </section>
  
+ <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-label mono-label">About me</div>
+      <div class="about-body">
+        <p>My name is Temilola Eniola-Jegede, but EJ for short. I’m a final-year Computer Systems Engineering student at Queen Mary University of London with an interest in technology, problem-solving and business.</p>
+
+<p>I’ve always been curious about technology and how the things around us work. That interest started with gaming when I was younger and gradually developed into a broader fascination with technology and the way it continues to evolve. I enjoy solving problems and thinking logically, which is what initially drew me towards engineering and IT.</p>
+
+<p>Throughout my education, I’ve had the opportunity to explore different sides of technology. During a Computer Science summer programme in Oxford, I worked on a website project using HTML and CSS, and during my A-levels I built a GPS navigation system for cyclists and pedestrians using C#. At university, I’ve continued developing my programming and technical skills through projects in C#, Java and Python, while also building my understanding of networks, systems and cloud technologies. I’ve also gained practical IT experience through placements with Fortinet and Fujitsu, as well as completing AWS Cloud Practitioner and Microsoft Azure Fundamentals certifications.</p>
+
+<p>As I’ve explored technology further, I’ve realised that I’m less interested in becoming a software developer and more interested in how technology can be used to solve practical problems. I’m particularly interested in areas such as cloud, cybersecurity and IT consulting, where I can combine technical knowledge with problem-solving, communication and working with people.</p>
+
+<p>Outside of university, I’ve also developed a strong interest in business and e-commerce. I’ve spent time learning about everything from sourcing and branding to marketing and customer experience, and I’ve experimented with three ventures of my own. I am still working on each of them on the side, but each one gave me an opportunity to test ideas, make mistakes and learn what goes into actually building and running something. For me, that experience has been just as valuable as learning about business in a classroom.</p>
+
+<p>I’m still figuring out exactly where I want my career to take me, but I know I want to combine technology and business in some way. In the future, I’d like to build on my engineering background with a business-focused master’s and eventually create something of my own which can help people and businesses.</p>
+
+<p>For now, I’m focused on learning as much as I can, gaining practical experience and finding the areas of technology and business that I’m genuinely passionate about through taking part in more specialised programmes, earning IT certifications, and gaining further work experience.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SIDE VENTURES -->
+  <section id="ventures">
+    <p class="mono-label">Business ventures</p>
+    <h2>I took on some side projects and gained some skills along the way</h2>
+    <div class="venture-list">
+ 
+      <div class="venture">
+        <div class="venture-head">
+          <div class="venture-dot" style="background:var(--purple);"></div>
+          <p class="venture-name">Replēn</p>
+          <p class="venture-role">Sensitive skincare · Shopify</p>
+        </div>
+        <div class="venture-body">
+          <p>A barrier-first sensitive skincare brand built on Shopify, anchored by a hero Bioactive Prebiotics Jelly Serum and fulfilled through a private-label partner. I built out the full storefront — product content, SEO, reviews, and a skin quiz — and ran a small paid ad test to validate messaging.</p>
+          <p>After the test showed cold traffic couldn't close economically on a single product, I pulled the original positioning apart, kept what worked (the visual identity, the supplier relationship, the hero product), and rebuilt the strategy around organic, founder-led content and higher-value bundles.</p>
+          <a href="#" class="venture-link">View store ↗</a>
+        </div>
+      </div>
+ 
+      <div class="venture">
+        <div class="venture-head">
+          <div class="venture-dot" style="background:var(--purple-deep);"></div>
+          <p class="venture-name">The Làfíà Edit</p>
+          <p class="venture-role">Home fragrance · Brand development</p>
+        </div>
+        <div class="venture-body">
+          <p>A home fragrance brand built around a Yoruba botanical identity — the name itself came out of language research. I developed a 16-scent lineup across two collections, one natural and essential-oil based, one editorial, and mapped every launch scent to a manufacturing partner's ready-made oils.</p>
+          <p>Two heritage scents have no off-the-shelf equivalent and are being developed bespoke. The launch plan is self-fulfillment for the first 90 days before moving to a third-party logistics partner.</p>
+          <a href="#" class="venture-link">View brand ↗</a>
+        </div>
+      </div>
+ 
+      <div class="venture">
+        <div class="venture-head">
+          <div class="venture-dot" style="background:var(--purple-light);"></div>
+          <p class="venture-name">Jumper-Junction</p>
+          <p class="venture-role">eBay dropshipping · General store</p>
+        </div>
+        <div class="venture-body">
+          <p>This was my first go at e-commeerce which was a general eBay store sourcing from AliExpress, currently focused on automotive accessories and home/car organisation. I use a sell-through-rate and competition framework to screen products before listing, and write every title, spec, and description myself.</p>
+          <p>This is my third store after two earlier ones — practical, repeatable experience in listing optimisation, market research, and reading demand signals fast.</p>
+          <a href="#" class="venture-link">View store ↗</a>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+ 
+ 
