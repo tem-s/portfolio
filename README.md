@@ -18,7 +18,7 @@ This site brings together three sides of my work:
 
 ## Tech stack
 
-- HTML5, CSS3, vanilla JavaScript — no framework or build step required
+- HTML, CSS, JavaScript — no framework or build step required
 - Google Fonts (Space Grotesk + Newsreader)
 - Hosted on AWS (S3 + CloudFront)
 
